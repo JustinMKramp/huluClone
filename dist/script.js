@@ -1,0 +1,2 @@
+const modal=document.querySelector(".modal"),loginBtn=document.querySelector(".login-btn"),closeBtn=document.querySelector(".close");function openModal(){modal.style.display="block"}function closeModal(){modal.style.display="none"}function outsideClick(o){o.target==modal&&closeModal()}loginBtn.addEventListener("click",openModal),closeBtn.addEventListener("click",closeModal),window.addEventListener("click",outsideClick);
+//# sourceMappingURL=script.js.map
